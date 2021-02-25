@@ -47,7 +47,9 @@
             : posts[0].body
         }}
       </div>
-      <router-link tag="a" :to="'/post/' + posts[posts.length - 1].id">Show More</router-link>
+      <router-link tag="a" :to="'/post/' + posts[posts.length - 1].id"
+        >Show More</router-link
+      >
     </div>
   </div>
 </template>
